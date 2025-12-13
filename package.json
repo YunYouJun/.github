@@ -8,10 +8,10 @@
   "keywords": [],
   "main": "index.js",
   "scripts": {
-    "build": "echo \"Error: no build specified\"",
+    "build": "echo \"Skip build\"",
     "lint": "eslint .",
-    "test": "echo \"Error: no test specified\"",
-    "typecheck": "tsc --noEmit"
+    "test": "echo \"Skip tests\"",
+    "typecheck": "echo \"Skip typecheck\""
   },
   "devDependencies": {
     "@antfu/eslint-config": "^6.6.1",

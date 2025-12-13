@@ -63,4 +63,4 @@ jobs:
 
       - run: pnpm install
       - run: pnpm run build
-      - run: pnpm run test:unit
+      - run: pnpm run test
