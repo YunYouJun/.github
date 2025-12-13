@@ -1,16 +1,18 @@
 {
   "name": "@yunyoujun/.github",
   "version": "1.0.0",
+  "packageManager": "pnpm@10.25.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "lint": "eslint .",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
   "author": "YunYouJun",
   "license": "MIT",
-  "packageManager": "pnpm@10.25.0",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"Error: no build specified\"",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\"",
+    "typecheck": "tsc --noEmit"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^6.6.1",
     "eslint": "^9.39.2",
